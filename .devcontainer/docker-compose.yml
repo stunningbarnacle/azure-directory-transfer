@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  stunning-barnacle-dev:
+    build:
+      context: .
+    working_dir: /src
+    volumes:
+      - "..:/src"
+    command: sleep infinity

@@ -1,0 +1,6 @@
+{
+  "dockerComposeFile": ["docker-compose.yml"],
+  "workspaceFolder": "/src",
+  "extensions": ["ms-dotnettools.csharp"],
+  "shutdownAction": "stopCompose"
+}
